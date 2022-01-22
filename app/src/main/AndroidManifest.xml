@@ -18,15 +18,11 @@
 
         </activity>
 
+        <!--        测试ManiFest配置界面-->
         <activity
             android:name=".test_module.module.testMani.TestManiFestActivity"
-            android:exported="true">
-<!--            <intent-filter>-->
-<!--                <action android:name="android.intent.action.MAIN" />-->
-
-<!--                <category android:name="android.intent.category.LAUNCHER" />-->
-<!--            </intent-filter>-->
-        </activity>
+            android:exported="true" />
+        <!--        菜单主页-->
         <activity
             android:name="com.example.treasurebagkt.test_module.module.main.MainMenuActivity"
             android:exported="true">
@@ -36,6 +32,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <!--        菜单栏界面-->
+        <activity
+            android:name=".test_module.module.actionBar.ActionBarActivity"
+            android:exported="true" />
+        <!--        打开浏览器自定义tab-->
+        <activity
+            android:name=".test_module.module.customWeb.CustomWebTabActivity"
+            android:exported="true" />
     </application>
 
 </manifest>

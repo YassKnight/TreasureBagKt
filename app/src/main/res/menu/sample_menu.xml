@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_web"
+        android:icon="@drawable/ic_web"
+        android:onClick="openWeb"
+        android:title="@string/action_bar_web"
+        android:titleCondensed="@string/action_bar_web"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_withText"
+        android:icon="@drawable/ic_done"
+        android:title="@string/action_bar_done"
+        android:alphabeticShortcut="@string/app_name"
+        app:showAsAction="withText" />
+    <item
+        android:id="@+id/action_never"
+        android:icon="@drawable/ic_done"
+        android:title="@string/action_bar_done"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_collapseActionView"
+        android:icon="@drawable/ic_done"
+        android:title="@string/action_bar_done"
+        app:showAsAction="collapseActionView" />
+</menu>

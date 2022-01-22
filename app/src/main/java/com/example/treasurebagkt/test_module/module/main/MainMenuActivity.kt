@@ -6,6 +6,8 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.treasurebagkt.R
 import com.example.treasurebagkt.test_module.bean.MenuBean
+import com.example.treasurebagkt.test_module.module.actionBar.ActionBarActivity
+import com.example.treasurebagkt.test_module.module.customWeb.CustomWebTabActivity
 import com.example.treasurebagkt.test_module.module.testMani.TestManiFestActivity
 
 /**
@@ -22,7 +24,11 @@ class MainMenuActivity : AppCompatActivity() {
     private lateinit var menuAdapter: MenuAdapter
 
     private var mMenuList: List<MenuBean> =
-        arrayListOf(MenuBean("ManiFest配置测试", TestManiFestActivity::class.java))
+        arrayListOf(
+            MenuBean("ManiFest配置测试", TestManiFestActivity::class.java),
+            MenuBean("ActionBar测试", ActionBarActivity::class.java),
+            MenuBean("ChromeCustomTabs", CustomWebTabActivity::class.java),
+        )
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

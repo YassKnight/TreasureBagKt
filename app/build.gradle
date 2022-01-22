@@ -44,4 +44,7 @@ dependencies {
     implementation "androidx.fragment:fragment:$fragment_version"
     // Kotlin
     implementation "androidx.fragment:fragment-ktx:$fragment_version"
+
+    //自定义浏览器选项卡
+    implementation "androidx.browser:browser:1.3.0"
 }

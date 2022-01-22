@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">TreasureBagKt</string>
+
+    <string name="action_bar_web">打开文档</string>
+    <string name="action_bar_done">完成</string>
+    <string name="action_bar_ifRoom">应用栏空间足够时显示</string>
+
+    <!--    自定义浏览器tab-->
+    <string name="custom_web_default">基础tab</string>
+    <string name="custom_web_custom">自定义tab</string>
 </resources>
