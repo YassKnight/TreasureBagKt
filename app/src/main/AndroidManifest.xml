@@ -40,6 +40,16 @@
         <activity
             android:name=".test_module.module.customWeb.CustomWebTabActivity"
             android:exported="true" />
+
+        <!--        拍照主页-->
+        <activity
+            android:name=".test_module.module.camera.TakeCameraActivity"
+            android:exported="true" />
+
+        <!--        通过action_image_capture拍照-->
+        <activity
+            android:name=".test_module.module.camera.ActionImageCaptureActivity"
+            android:exported="true" />
     </application>
 
 </manifest>

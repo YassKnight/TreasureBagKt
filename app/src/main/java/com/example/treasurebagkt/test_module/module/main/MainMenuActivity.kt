@@ -7,6 +7,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.example.treasurebagkt.R
 import com.example.treasurebagkt.test_module.bean.MenuBean
 import com.example.treasurebagkt.test_module.module.actionBar.ActionBarActivity
+import com.example.treasurebagkt.test_module.module.camera.TakeCameraActivity
 import com.example.treasurebagkt.test_module.module.customWeb.CustomWebTabActivity
 import com.example.treasurebagkt.test_module.module.testMani.TestManiFestActivity
 
@@ -28,6 +29,8 @@ class MainMenuActivity : AppCompatActivity() {
             MenuBean("ManiFest配置测试", TestManiFestActivity::class.java),
             MenuBean("ActionBar测试", ActionBarActivity::class.java),
             MenuBean("ChromeCustomTabs", CustomWebTabActivity::class.java),
+            MenuBean("TakeCamera", TakeCameraActivity::class.java),
+
         )
 
     override fun onCreate(savedInstanceState: Bundle?) {
